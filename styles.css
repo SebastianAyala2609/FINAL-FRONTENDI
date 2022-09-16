@@ -238,7 +238,7 @@ button{
     background-color: #8B48BF;
     display: flex;
     width: auto;
-    height: 30vh;
+    height: 35vh;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -271,17 +271,76 @@ button{
     padding-right: 5vw;
 }
 
+footer{
+    display: flex;
+    height: 35vh;
+    width: auto;
+    background-color: #1E1E26;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
 
 
+footer a{
+    color: white;
+    font-weight: 400;
+}
 
 
+.foo-section1{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.foo-section1, .div-1-1{
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.foo-section1, .div-1-2{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    
+}
+
+.foo-section2, .foo-section3{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
 
 
+h6{
+    color: #8C8C94;
+    margin-top: 4rem;
+    margin-right: 6rem;
 
+}
 
+.form{
+    color: #A0A0A0;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 13vw;
+    height: 6vh;
+}
 
-
-
+.btn-form{
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 4.5vw;
+    height: 6vh;
+}
 
 
 @media (max-width: 700px){
